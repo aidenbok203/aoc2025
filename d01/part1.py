@@ -1,7 +1,7 @@
 password = 0
 state = 50
 
-with open("d1/data.txt", "r") as data:
+with open("d01/data.txt", "r") as data:
     while True:
         line = data.readline().strip()
         if not line:
